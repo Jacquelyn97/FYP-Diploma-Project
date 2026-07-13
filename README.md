@@ -1,4 +1,4 @@
-# Cyber Security Practical (ITCSI030) — Final Year Project
+# Cyber Security Practical — Final Year Project
 
 A Windows desktop application built in C# (.NET Framework, WinForms) as my Final Year Project for the Diploma in Information Technology Infrastructure Cyber Security (ITCSI) at the New Era Institute of Vocational and Continuing Education (NEIVCE), Malaysia.
 
