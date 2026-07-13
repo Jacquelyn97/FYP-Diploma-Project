@@ -1,18 +1,30 @@
-# FYP Diploma Project
+# Cyber Security Practical (ITCSI030) — Final Year Project
 
-A Windows desktop security utility built in C# (.NET Framework, WinForms) as my Final Year Project (FYP) for my diploma.
+A Windows desktop application built in C# (.NET Framework, WinForms) as my Final Year Project for the Diploma in Information Technology Infrastructure Cyber Security (ITCSI) at the New Era Institute of Vocational and Continuing Education (NEIVCE), Malaysia.
+
+## Background
+
+Software development requires balancing performance, security, and reliability — which takes significant time to review, test, and debug. This project explores that process hands-on by building a security-focused desktop tool from the ground up: designing the architecture, implementing the features, and testing the final product.
+
+## Purpose
+
+The goal of this project is to help users understand and experience computer security concepts in a practical way. Rather than just explaining network security theory, the app pairs educational content (network threats, why computer security matters, etc.) with small, functional security tools the user can actually try — such as checking computer performance, scanning file hashes, and hiding their IP address.
+
+**Development goals:**
+- Optimize performance and reliability, even with larger data volumes
+- Provide a clean, simple user interface and experience
+- Build out proper testing to ensure software quality
 
 ## What it does
 
-The application is an all-in-one system security and monitoring tool with the following features:
-
 - **User accounts** – Login and registration system backed by a MySQL database.
+- **Computer performance monitoring** – View real-time system performance and resource usage.
 - **File scanning (MD5Scanner)** – Computes the MD5 hash of a selected file, useful for verifying file integrity or checking for known malicious files.
-- **VirusTotal integration** – Uses an embedded browser (Microsoft WebView2) to check scanned files against VirusTotal.
-- **VPN / Free VPN** – Lets the user connect to a VPN directly from the app.
-- **System performance & usage monitoring** – Displays system performance and resource usage stats.
-- **Knowledge base & Help** – In-app knowledge/help sections for user guidance.
-- **Contact page** – Basic contact information screen.
+- **VirusTotal integration** – Uses an embedded browser (Microsoft WebView2) to check scanned files/URLs against VirusTotal (available in Simple and Advanced scan modes).
+- **VPN / Free VPN** – Lets the user connect to a VPN and hide their IP address directly from the app.
+- **Knowledge base** – In-app educational content covering cyber security concepts.
+- **Contact & Help pages** – In-app support and guidance for users.
+- **Software update & logout** – Basic app maintenance and session handling.
 
 ## Tech stack
 
@@ -32,4 +44,4 @@ The application is an all-in-one system security and monitoring tool with the fo
 
 ## Note
 
-This project was built as part of an academic diploma program. It's shared here for portfolio purposes.
+This project was built as part of my Diploma in ITCSI (Information Technology Infrastructure Cyber Security) at NEIVCE, Malaysia. It's shared here for portfolio purposes. The full FYP report (background, methodology, flowcharts, testing plan, and full source code listing) was submitted separately as part of the academic requirements.
